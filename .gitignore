@@ -1,3 +1,6 @@
+# Build directories
+_generated/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
