@@ -1,0 +1,48 @@
+{
+    "title":"Pizzadeig",
+    "description":{
+        "short":"Langtidshevet pizzadeig",
+        "long": "Dersom du ønsker en digg pizzadeig så er denne for deg!"
+    },
+    "portions": 2,
+    "ingredients":[
+        {
+            "ingredient":"pizzamel",
+            "amount":260,
+            "unit": "gram"
+        },
+        {
+            "ingredient":"tørrgjer",
+            "amount":2,
+            "unit": "gram"
+        },
+        {
+            "ingredient":"sukker",
+            "amount":0.25,
+            "unit": "ts"
+        },
+        {
+            "ingredient":"salt",
+            "amount":0.5,
+            "unit": "ts"
+        },
+        {
+            "ingredient":"olivenolje",
+            "amount":0.7,
+            "unit": "ss"
+        },
+        {
+            "ingredient":"lunkent vann",
+            "amount":1.6,
+            "unit": "dL"
+        }
+    ],
+    "steps":[
+        "Ha mel, salt, sukker, gjær og vannet i bakebollen. Kjør blandingen i kjøkkenmaskin med eltekroker på lav til middels hastighet i ca. 10 minutter. Spe eventuelt med mer vann dersom deigen virker tørr, eller mer mel dersom den virker løs.",
+        "Tilsett olivenolje og elt til du har en fin og smidig deig.",
+        "Dekk bakebollen med lokk eller plast og la deigen heve i ca 40 minutter.",
+        "Del deigen opp i tre like store emner og bak de til boller. La dette heve videre i ca 30 min eller mer.",
+        "For å bake ut emnene er det lurt å ha tilstrekkelig med mel på benken. Start med å flate den litt ut med hendene og begynn deretter fra midten og klem deigen sammen langs kantene. Resultatet er en relativt tynn bunn med en kant der luften fra hevingen fremdeles er bevart.",
+        "Ha på det du selv ønsker av topping. Pizzaen stekes i øvre del av oven, så varmt det går. Helst på pizzasten eller pizzastål."
+    ]
+}
