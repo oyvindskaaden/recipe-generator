@@ -1,0 +1,31 @@
+---
+layout: layouts/recipe
+title: {{title}}
+description: {{ description.short }}
+interactive_recipe: {{ interactive }}
+---
+
+{% if interactive is true() %}
+<script>
+var portions = {{ portions }};
+var ingredients = {{ ingredients }};
+</script>
+{% else %}
+
+## Ingredienser
+
+<table>{% for ingredient in ingredients %}
+    <tr><td style="text-align: right"><b>{{ingredient.amount}} {{ingredient.unit}}</b></td><td>{{ingredient.ingredient}}</td></tr>{% endfor %}
+</table> 
+
+{% endif %}
+
+## Fremgangsmåte
+{% for step in steps %}
+{{loop.index}}. {{step}}{% endfor %}
+
+{% if description.long is defined() %}
+## Litt om oppskriften
+
+{{ description.long }}
+{% endif %}
